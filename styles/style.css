@@ -46,9 +46,11 @@ ul, ol {
 
 .ba-hero__link {
     position: absolute;
-    bottom: 10.75vh;
+    bottom: 0;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, 50%);
+    margin-bottom: 5vh;
+
 }
 
 .ba-hero__title {
@@ -76,8 +78,7 @@ ul, ol {
         /*BA-ABOUT*/
 
 .ba-about {
-    /*height: 50vh;*/
-    min-height: 100%;
+    min-height: 50vh;
 }
 
 .ba-info-block {
@@ -145,8 +146,7 @@ ul, ol {
         /*BA-SERVICES*/
 
 .ba-services {
-    /*height: 50vh;*/
-    min-height: 100%;
+    min-height: 50vh;
     background-image: url(../images/services.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -154,23 +154,13 @@ ul, ol {
 
         /*BA-WHAT-WE-DO*/
 
-.ba-work {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-}
-
-.ba-info-block_height {
-    /*height: 1196px;*/
-    min-height: 100%;
-}
-
 .ba-work-list {
     padding-top: 40px;
     padding-bottom: 62px;
 }
 
 .ba-work__item + .ba-work__item {
-    padding-top: 100px;
+    margin-top: 100px;
 }
 
 .ba-work__title {
@@ -223,6 +213,15 @@ ul, ol {
     background-size: cover;
     background-repeat: no-repeat; 
     height: 237px;
+}
+
+.ba-links__ref:hover {
+    background-color: #fff;
+    opacity: .4;
+}
+
+.ba-links__ref:hover .ba-links__title {
+    color: black;
 }
 
 .topworkz {
@@ -288,11 +287,17 @@ ul, ol {
     letter-spacing: 2.54px;
 }
 
+.ba-btn-contact:hover {
+    background-color: #696464;
+    border-color: black;
+}
+
 .ba-footer-logo {
     position: absolute;
     bottom: 0;
     left: 50%;
-    transform: translate(-50%, -75%);
+    transform: translate(-50%, 50%);
+    margin-bottom: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
