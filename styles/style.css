@@ -76,11 +76,13 @@ ul, ol {
         /*BA-ABOUT*/
 
 .ba-about {
-    height: 50vh;
+    /*height: 50vh;*/
     min-height: 100%;
 }
 
 .ba-info-block {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
     border: 2px solid #3c3c3c;
     border-top: none;
     text-align: center;
@@ -143,7 +145,7 @@ ul, ol {
         /*BA-SERVICES*/
 
 .ba-services {
-    height: 50vh;
+    /*height: 50vh;*/
     min-height: 100%;
     background-image: url(../images/services.jpg);
     background-size: cover;
@@ -163,10 +165,6 @@ ul, ol {
 }
 
 .ba-work-list {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    vertical-align: center;
     padding-top: 40px;
     padding-bottom: 62px;
 }
@@ -269,7 +267,7 @@ ul, ol {
         /*BA-FOOTER*/
 
 .ba-footer {
-    height: 60vh;
+    /*height: 60vh;*/
     min-height: 100%;
     position: relative;
 }
